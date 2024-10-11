@@ -23,7 +23,8 @@ namespace LuongDinhHoang_Bai2
         public NhanVien(string ten, string id, long luong):this(id)
         {
             Ten = ten;
-            LuongCoBan = luong; 
+            LuongCoBan = luong;
+            LuongThucLanh = this.TinhLuong();
         }
 
         public virtual long TinhLuong()

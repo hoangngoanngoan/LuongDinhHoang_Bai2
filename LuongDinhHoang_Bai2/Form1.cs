@@ -14,7 +14,7 @@ namespace LuongDinhHoang_Bai2
             var ten = txttennv.Text;
             var luong = long.Parse(txtlcbnv.Text);
             var newnv = new NhanVien(ten, null, luong);
-            newnv.LuongThucLanh = newnv.TinhLuong();
+            //newnv.LuongThucLanh = newnv.TinhLuong();
 
             dsnv.Add(newnv);
             dt1.DataSource = null;
